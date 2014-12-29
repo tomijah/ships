@@ -19,6 +19,7 @@
   <ItemGroup>
     <Content Include="app.css" />
     <Content Include="index.html" />
+    <TypeScriptCompile Include="State.ts" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
