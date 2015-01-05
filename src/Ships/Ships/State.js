@@ -6,4 +6,4 @@
     State[State["Sail"] = 4] = "Sail";
     State[State["Sunk"] = 5] = "Sunk";
 })(State || (State = {}));
-//# sourceMappingURL=State.js.map
+//# sourceMappingURL=state.js.map

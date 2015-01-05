@@ -5,13 +5,23 @@
     <meta charset="utf-8" />
     <title>Ships</title>
     <link rel="stylesheet" href="app.css" type="text/css" />
-    <script src="State.js"></script>
+    <script src="state.js"></script>
+    <script src="common.js"></script>
+    <script src="cell.js"></script>
+    <script src="ship.js"></script>
+    <script src="orientation.js"></script>
+    <script src="coordinate.js"></script>
+    <script src="computerPlayer.js"></script>
+    <script src="board.js"></script>
+        <script src="position.js"></script>
     <script src="app.js"></script>
 </head>
 <body>
     <h1>Ships</h1>
-    <div>
-        <canvas id="display" width="800" height="400" style="border:10px solid #000000;"></canvas>
+    <div id="display">
+        <canvas id="computer" width="400" height="400" style="border:10px solid #000000;"></canvas>
+    
+        <canvas id="player" width="400" height="400" style="border:10px solid #000000;"></canvas>
     </div>
 </body>
 </html>

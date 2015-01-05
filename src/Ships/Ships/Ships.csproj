@@ -18,8 +18,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.css" />
+    <TypeScriptCompile Include="cell.ts" />
+    <TypeScriptCompile Include="board.ts" />
+    <TypeScriptCompile Include="coordinate.ts" />
+    <TypeScriptCompile Include="computerPlayer.ts" />
+    <TypeScriptCompile Include="common.ts" />
     <Content Include="index.html" />
-    <TypeScriptCompile Include="State.ts" />
+    <TypeScriptCompile Include="state.ts" />
+    <TypeScriptCompile Include="ship.ts" />
+    <TypeScriptCompile Include="orientation.ts" />
+    <TypeScriptCompile Include="position.ts" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
